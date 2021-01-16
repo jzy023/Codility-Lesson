@@ -16,5 +16,27 @@ This repo contains solutions for Codility Lesson exercises in C++. Still updatin
 
 ## Time Complexity
 
+- FrogJump.cpp
+- PermMissingElem.cpp
+- TapeEquilibrium.cpp
+
+
+## Counting Elements
+
+- FrogRiverOne.cpp
+- MaxCounter.cpp
+- MissingInteger.cpp
+- PermCheck.cpp
+
+
+## Prefix Sum
+
+- CountDiv.cpp
+- GenomicRangeQuery.cpp
+- MinAvgTwoSlice.cpp
+- PassingCars.cpp
+
+
+## Sorting
 
 
