@@ -1,6 +1,3 @@
-// #include <iostream>
-// #include <vector>
-
 /*
 Write a function:
 
@@ -33,10 +30,3 @@ int solution(int A, int B, int K){
 
     return (int)(B-A)/K + 1;
 }
-
-
-// int main(int argc, char const *argv[])
-// {
-// 	std::cout << solution(11,403,43) << std::endl;
-// 	return 0;
-// }
