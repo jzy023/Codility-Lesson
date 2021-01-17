@@ -35,9 +35,14 @@ Write an efficient algorithm for the following assumptions:
 	> all but one of the values in A occur an even number of times.
 */
 
-#include <iostream>
-#include <vector>
 #include <algorithm>
+int solution(std::vector<int> &A){
+	int ans = 0;
+		for(int i : A) {
+			ans ^= i;
+		}
+		return ans;
+}
 
 // int solution(std::vector<int> &A){
 // 	// exception
@@ -104,18 +109,3 @@ Write an efficient algorithm for the following assumptions:
 // 	}
 // 	return 0;
 // }
-
-int solution(std::vector<int> &A){
-	int ans = 0;
-		for(int i : A) {
-			ans ^= i;
-		}
-		return ans;
-}
-
-int main(int argc, char const *argv[])
-{
-	std::vector<int> v = {1,4,3,3,4};
-	std::cout << solution(v);
-	return 0;
-}
