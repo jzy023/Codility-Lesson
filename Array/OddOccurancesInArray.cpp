@@ -36,6 +36,7 @@ Write an efficient algorithm for the following assumptions:
 */
 
 #include <algorithm>
+
 int solution(std::vector<int> &A){
 	int ans = 0;
 		for(int i : A) {
