@@ -46,9 +46,6 @@ Write an efficient algorithm for the following assumptions:
 	  following values: 0, 1.
 */
 
-#include <iostream>
-#include <vector>
-
 int solution(std::vector<int> &A){
 	int size = A.size();
 	long int current = 0;
@@ -65,11 +62,4 @@ int solution(std::vector<int> &A){
 	}
 
 	return (total > 1000000000) ? -1 : total;
-}
-
-int main(int argc, char const *argv[])
-{
-	std::vector<int> v{0,1,0,1,1};
-	std::cout << solution(v);
-	return 0;
 }
