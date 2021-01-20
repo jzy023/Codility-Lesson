@@ -30,14 +30,7 @@ Write an efficient algorithm for the following assumptions:
 	> X ≤ Y.
 */
 
-#include <iostream>
-
 int solution(int X, int Y, int D){
 	return ((Y - X)%D == 0) ? (Y - X)/D : (Y - X)/D + 1;
 }
 
-int main(int argc, char const *argv[])
-{
-	std::cout << solution(10,11,30);
-	return 0;
-}
