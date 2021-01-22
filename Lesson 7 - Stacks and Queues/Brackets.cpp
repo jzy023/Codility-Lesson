@@ -58,5 +58,5 @@ int solution(std::string &S) {
 			return 0;
 		}
 	}
-	return(myStack.size() == 0) ? 1 : 0;
+	return(myStack.empty()) ? 1 : 0;
 }
