@@ -41,3 +41,10 @@ This repo contains solutions for Codility Lesson exercises in C++. Still updatin
 - testing..
 
 
+## Stacks and Queues
+
+- Brackets.cpp
+- Fish.cpp
+- Nesting.cpp
+- StoneWall.cpp
+
