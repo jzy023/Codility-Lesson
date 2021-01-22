@@ -59,7 +59,6 @@ Write an efficient algorithm for the following assumptions:
 	> the elements of A are all distinct.
 */
 
-#include <iostream>
 #include <vector>
 #include <stack>
 
@@ -95,13 +94,4 @@ int solution(std::vector<int> &A, std::vector<int> &B){
 		}
 	}
 	return upFishes.size() + downFishes.size();
-}
-
-int main(int argc, char const *argv[])
-{
-	std::vector<int> A{4,3,2,1,5};
-	std::vector<int> B{0,1,0,0,0};
-
-	std::cout << solution(A,B);
-	return 0;
 }

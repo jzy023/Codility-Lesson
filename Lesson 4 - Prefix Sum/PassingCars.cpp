@@ -46,6 +46,8 @@ Write an efficient algorithm for the following assumptions:
 	  following values: 0, 1.
 */
 
+#include <vector>
+
 int solution(std::vector<int> &A){
 	int size = A.size();
 	long int current = 0;

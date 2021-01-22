@@ -45,6 +45,8 @@ In your solution, focus on correctness. The performance of your solution
 will not be the focus of the assessment.
 */
 
+#include <vector>
+
 std::vector<int> solution(std::vector<int> &A, int K){
 	// small size exception
 	int size = A.size();

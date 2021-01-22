@@ -27,7 +27,6 @@ Write an efficient algorithm for the following assumptions:
 	  "]", "}" and/or ")".
 */
 
-#include <iostream>
 #include <string>
 #include <stack>
 #include <map>
@@ -60,12 +59,4 @@ int solution(std::string &S) {
 		}
 	}
 	return(myStack.size() == 0) ? 1 : 0;
-}
-
-int main(int argc, char const *argv[])
-{	
-	std::string S = "{{[()()]}}";
-
-	std::cout << solution(S);
-	return 0;
 }
