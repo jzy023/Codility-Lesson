@@ -38,7 +38,7 @@ This repo contains solutions for Codility Lesson exercises in C++. Still updatin
 
 
 ## Sorting
-- testing..
+- testing...
 
 
 ## Stacks and Queues
